@@ -1,0 +1,29 @@
+{
+  "name": "bn-developer-assessment",
+  "version": "1.0.0",
+  "description": "Bonnier News publicerar dagligen nya artiklar och annat redaktionellt material i sina olika tidningar. Materialet publiceras under kategorier såsom nyheter, sport, eller kultur. Visst innehåll publiceras i flera olika kategorier samtidigt. Det senast publicerade materialet exponeras under RSS-flöden.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonnierNews/bn-developer-assessment.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BonnierNews/bn-developer-assessment/issues"
+  },
+  "homepage": "https://github.com/BonnierNews/bn-developer-assessment#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-exp": "^0.6.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

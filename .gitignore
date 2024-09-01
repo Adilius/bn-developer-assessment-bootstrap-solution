@@ -1,0 +1,14 @@
+# Dependency directory and npm log
+node_modules
+npm-debug.log
+
+# Cache
+.eslintcache
+.nyc_output
+
+# OS X
+.DS_Store
+
+.vscode/
+tmp/
+
