@@ -69,7 +69,8 @@ async function rssFeed(){
       // Remove all but title, link
       const newItem = {
         "title": item.title[0],
-        "link": item.link[0]
+        "link": item.link[0],
+        "pubDate": item.pubDate[0]
       }
 
       uniqueArticles.set(uniqueKey, newItem);
